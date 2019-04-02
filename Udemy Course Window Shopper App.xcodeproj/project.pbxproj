@@ -13,7 +13,20 @@
 		57489A64225401E6001C1947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57489A63225401E6001C1947 /* Assets.xcassets */; };
 		57489A67225401E6001C1947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57489A65225401E6001C1947 /* LaunchScreen.storyboard */; };
 		57489A71225405B3001C1947 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A70225405B3001C1947 /* CurrencyTxtField.swift */; };
+		57489A7922541174001C1947 /* Udemy_Course_Window_Shopper_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A7822541174001C1947 /* Udemy_Course_Window_Shopper_AppTests.swift */; };
+		57489A8222541197001C1947 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A8122541197001C1947 /* Wage.swift */; };
+		57489A8322541331001C1947 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A8122541197001C1947 /* Wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57489A7B22541174001C1947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57489A51225401E5001C1947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57489A58225401E5001C1947;
+			remoteInfo = "Udemy Course Window Shopper App";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		57489A59225401E5001C1947 /* Udemy Course Window Shopper App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy Course Window Shopper App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +37,21 @@
 		57489A66225401E6001C1947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57489A68225401E6001C1947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57489A70225405B3001C1947 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		57489A7622541174001C1947 /* Udemy Course Window Shopper AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udemy Course Window Shopper AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57489A7822541174001C1947 /* Udemy_Course_Window_Shopper_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Course_Window_Shopper_AppTests.swift; sourceTree = "<group>"; };
+		57489A7A22541174001C1947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57489A8122541197001C1947 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		57489A56225401E5001C1947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57489A7322541174001C1947 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				57489A5B225401E5001C1947 /* Udemy Course Window Shopper App */,
+				57489A7722541174001C1947 /* Udemy Course Window Shopper AppTests */,
 				57489A5A225401E5001C1947 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				57489A59225401E5001C1947 /* Udemy Course Window Shopper App.app */,
+				57489A7622541174001C1947 /* Udemy Course Window Shopper AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +82,10 @@
 		57489A5B225401E5001C1947 /* Udemy Course Window Shopper App */ = {
 			isa = PBXGroup;
 			children = (
+				57489A8422541386001C1947 /* Important Stuff */,
+				57489A8022541184001C1947 /* Model */,
 				57489A6F22540587001C1947 /* Views */,
 				57489A6E2254043B001C1947 /* Controller */,
-				57489A5C225401E5001C1947 /* AppDelegate.swift */,
-				57489A63225401E6001C1947 /* Assets.xcassets */,
 				57489A60225401E5001C1947 /* Main.storyboard */,
 				57489A65225401E6001C1947 /* LaunchScreen.storyboard */,
 				57489A68225401E6001C1947 /* Info.plist */,
@@ -83,6 +109,32 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		57489A7722541174001C1947 /* Udemy Course Window Shopper AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				57489A7822541174001C1947 /* Udemy_Course_Window_Shopper_AppTests.swift */,
+				57489A7A22541174001C1947 /* Info.plist */,
+			);
+			path = "Udemy Course Window Shopper AppTests";
+			sourceTree = "<group>";
+		};
+		57489A8022541184001C1947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57489A8122541197001C1947 /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57489A8422541386001C1947 /* Important Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				57489A5C225401E5001C1947 /* AppDelegate.swift */,
+				57489A63225401E6001C1947 /* Assets.xcassets */,
+			);
+			path = "Important Stuff";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +155,24 @@
 			productReference = 57489A59225401E5001C1947 /* Udemy Course Window Shopper App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		57489A7522541174001C1947 /* Udemy Course Window Shopper AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57489A7D22541174001C1947 /* Build configuration list for PBXNativeTarget "Udemy Course Window Shopper AppTests" */;
+			buildPhases = (
+				57489A7222541174001C1947 /* Sources */,
+				57489A7322541174001C1947 /* Frameworks */,
+				57489A7422541174001C1947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57489A7C22541174001C1947 /* PBXTargetDependency */,
+			);
+			name = "Udemy Course Window Shopper AppTests";
+			productName = "Udemy Course Window Shopper AppTests";
+			productReference = 57489A7622541174001C1947 /* Udemy Course Window Shopper AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +185,10 @@
 				TargetAttributes = {
 					57489A58225401E5001C1947 = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					57489A7522541174001C1947 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 57489A58225401E5001C1947;
 					};
 				};
 			};
@@ -132,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				57489A58225401E5001C1947 /* Udemy Course Window Shopper App */,
+				57489A7522541174001C1947 /* Udemy Course Window Shopper AppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +222,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57489A7422541174001C1947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -155,12 +237,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				57489A71225405B3001C1947 /* CurrencyTxtField.swift in Sources */,
+				57489A8222541197001C1947 /* Wage.swift in Sources */,
 				57489A5F225401E5001C1947 /* MainVC.swift in Sources */,
 				57489A5D225401E5001C1947 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57489A7222541174001C1947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57489A7922541174001C1947 /* Udemy_Course_Window_Shopper_AppTests.swift in Sources */,
+				57489A8322541331001C1947 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57489A7C22541174001C1947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57489A58225401E5001C1947 /* Udemy Course Window Shopper App */;
+			targetProxy = 57489A7B22541174001C1947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		57489A60225401E5001C1947 /* Main.storyboard */ = {
@@ -334,6 +434,46 @@
 			};
 			name = Release;
 		};
+		57489A7E22541174001C1947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZA9Y8B6FF;
+				INFOPLIST_FILE = "Udemy Course Window Shopper AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Udemy-Course-Window-Shopper-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy Course Window Shopper App.app/Udemy Course Window Shopper App";
+			};
+			name = Debug;
+		};
+		57489A7F22541174001C1947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZA9Y8B6FF;
+				INFOPLIST_FILE = "Udemy Course Window Shopper AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Udemy-Course-Window-Shopper-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy Course Window Shopper App.app/Udemy Course Window Shopper App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +491,15 @@
 			buildConfigurations = (
 				57489A6C225401E6001C1947 /* Debug */,
 				57489A6D225401E6001C1947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57489A7D22541174001C1947 /* Build configuration list for PBXNativeTarget "Udemy Course Window Shopper AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57489A7E22541174001C1947 /* Debug */,
+				57489A7F22541174001C1947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
