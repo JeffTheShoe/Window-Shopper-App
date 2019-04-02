@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		57489A5D225401E5001C1947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A5C225401E5001C1947 /* AppDelegate.swift */; };
-		57489A5F225401E5001C1947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A5E225401E5001C1947 /* ViewController.swift */; };
+		57489A5F225401E5001C1947 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A5E225401E5001C1947 /* MainVC.swift */; };
 		57489A62225401E5001C1947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57489A60225401E5001C1947 /* Main.storyboard */; };
 		57489A64225401E6001C1947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57489A63225401E6001C1947 /* Assets.xcassets */; };
 		57489A67225401E6001C1947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57489A65225401E6001C1947 /* LaunchScreen.storyboard */; };
+		57489A71225405B3001C1947 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57489A70225405B3001C1947 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57489A59225401E5001C1947 /* Udemy Course Window Shopper App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy Course Window Shopper App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57489A5C225401E5001C1947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57489A5E225401E5001C1947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57489A5E225401E5001C1947 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		57489A61225401E5001C1947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57489A63225401E6001C1947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57489A66225401E6001C1947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57489A68225401E6001C1947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57489A70225405B3001C1947 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		57489A5B225401E5001C1947 /* Udemy Course Window Shopper App */ = {
 			isa = PBXGroup;
 			children = (
+				57489A6F22540587001C1947 /* Views */,
+				57489A6E2254043B001C1947 /* Controller */,
 				57489A5C225401E5001C1947 /* AppDelegate.swift */,
-				57489A5E225401E5001C1947 /* ViewController.swift */,
 				57489A63225401E6001C1947 /* Assets.xcassets */,
 				57489A60225401E5001C1947 /* Main.storyboard */,
 				57489A65225401E6001C1947 /* LaunchScreen.storyboard */,
 				57489A68225401E6001C1947 /* Info.plist */,
 			);
 			path = "Udemy Course Window Shopper App";
+			sourceTree = "<group>";
+		};
+		57489A6E2254043B001C1947 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57489A5E225401E5001C1947 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57489A6F22540587001C1947 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57489A70225405B3001C1947 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57489A5F225401E5001C1947 /* ViewController.swift in Sources */,
+				57489A71225405B3001C1947 /* CurrencyTxtField.swift in Sources */,
+				57489A5F225401E5001C1947 /* MainVC.swift in Sources */,
 				57489A5D225401E5001C1947 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
